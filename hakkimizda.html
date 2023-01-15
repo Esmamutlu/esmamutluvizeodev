@@ -1,6 +1,9 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <title>Untitled Document</title>
     <style>
         body{
@@ -108,7 +111,7 @@
 		
 		
         
-        }
+
         
         .orta-resim{
             margin: 0 25px;
@@ -160,8 +163,25 @@
  
 <body>
 
-    <div class="sayfa">
-        <div class="ust">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color: orange; font-weight: bold;">DESIGNER</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li ><a href="index.html">Ana Sayfa</a></li>
+          
+            <li><a href="tasarimler.html">Tasarımlar</a></li>
+            
+            <li class="active"><a href="hakkimizda.html">Hakkımıda</a></li>
+            <li><a href="muzikkosesi.html">Müzik Köşesi</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          
+          </ul>
+        </div>
+      </nav>
+    <div class="sayfa" style="margin-top: 80px;">
+        <!-- <div class="ust">
             <div id="logo">
                 <h1><a href="index.html">Designer</a></h1>
                 <p>Esma Mutlu</p>
@@ -172,17 +192,19 @@
                     <li><a href="tasarimler.html">Tasarımlar</a></li>
                     
                     <li><a href="hakkimizda.html">Hakkımıda</a></li>
+                    <li><a href="muzikkosesi.html">Müzik Köşesi</a></li>
                     <li><a href="iletisim.html">İletişim</a></li>
                 </ul>
             </div>
             <div class="clear"></div>
-        </div>
+        </div> -->
             <div class="orta">
                 <div class="orta-sol">
-                    <img src="https://cdn.discordapp.com/attachments/988465733191221278/1045037030758957150/Ekran_goruntusu_2022-11-23_210212.png" width="300" height="300">
+                    <center>
+                    <img src="img/ben.jpeg" width="250" height="300" align="center"></center>
                 </div>
                 <div class="orta-sag">
-                    <h1>Hakkımda	</h1>
+                    <h1>Hakkımda</h1>
                     <font color="#ffffff" size="3" family="helvetica">
 					<p>
                       Merhaba, Ben Esma 24 yaşındayım Fırat Üniversitesi İletişim Fakültesi Görsel İletişim Tasarımı 4. sınıf Öğrencisiyim. 4 Senede birçok tasarımlar yaptım hedefim ilerde çok başarılı bir tasarımcı olmak. daha önce mimarlık ofislerinde ve tasarım şirketlerinde görev aldım. Kullandığım Porgramlar; Photoshop, İllüstratör, After Effects,Premier Pro.
@@ -195,7 +217,7 @@
         <div class="icerik">
             <div class="card">
 			<font color="#ffffff" size="2" family="helvetica">
-                <h1>Afiş Tasarımlarım</h1></font>
+                <h1 style="font-size: 30px;">Afiş Tasarımlarım</h1></font>
                 <img src="https://cdn.discordapp.com/attachments/988465733191221278/1045039952540479518/lucifer_tasarm.jpg" width="250" height="365">
                 <p>
                 ...
@@ -206,7 +228,7 @@
             </div>
             <div class="card orta-card">
 			<font color="#ffffff" size="2" family="helvetica">
-                <h1>Logo Tasarımlarım</h1></font>
+                <h1 style="font-size: 30px;">Logo Tasarımlarım</h1></font>
                 <img src="https://cdn.discordapp.com/attachments/988465733191221278/1045041383876079616/Ekran_goruntusu_2022-11-23_212106.png"width="250" height="365">
                 <p>
                 ... 
@@ -217,7 +239,7 @@
             </div>
             <div class="card">
 			<font color="#ffffff" size="2" family="helvetica">
-                <h1>Dijital Çizimlerim</h1></font>
+                <h1 style="font-size: 30px;">Dijital Çizimlerim</h1></font>
                 <img src="https://cdn.discordapp.com/attachments/988465733191221278/1045042348826038313/Ekran_goruntusu_2022-11-23_212436.png"width="250" height="365">
                 <p>
                   ...
